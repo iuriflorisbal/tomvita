@@ -48,7 +48,7 @@
 
   document.querySelectorAll('a[href]').forEach(function (link) {
     var href = link.getAttribute('href') || '';
-    if (!href || href.indexOf('wa.me') !== -1) return;
+    if (!href || href.indexOf('wa.me') !== -1 || link.classList.contains('navbar-brand') || (link.closest('#mainNav') && !link.classList.contains('nav-cta'))) return;
     var label = link.textContent.replace(/\s+/g, ' ').trim();
     var message = 'Olá, vim pelo site da TomVita';
     if (label) message += ' e gostaria de saber mais sobre: ' + label + '.';
