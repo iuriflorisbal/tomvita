@@ -252,17 +252,3 @@ body{background:#080b1e}.topline{background:#0b0d21;border-bottom:1px solid rgba
 }
 
 @media (max-width:991.98px){.clinic-section .clinic-mosaic{width:100%}}
-
-body{font-family:"Roboto",sans-serif}
-h1,h2,h3,h4,.navbar-brand,.image-prompt strong,.testimonial-highlight blockquote,.brand-lockup strong,.gallery-label strong{font-family:"Roboto",sans-serif}
-.lead-copy,.section-head .lead-copy,.section-dark-purple p,.partner-copy p{font-size:16px}
-.site-header{padding-top:96px}
-.site-header>.navbar{background:rgba(8,11,30,.72);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(206,191,255,.14);box-shadow:0 12px 34px rgba(0,0,0,.18);height:96px;left:0;max-width:none;padding-left:max(15px,calc((100% - 1140px)/2))!important;padding-right:max(15px,calc((100% - 1140px)/2))!important;position:fixed;right:0;top:0;transition:background .25s ease,box-shadow .25s ease;z-index:1000}
-.navbar-brand img{width:290px}
-@media (max-width:991.98px){.site-header{padding-top:96px}.site-header>.navbar{height:96px}}
-@media (max-width:575.98px){.site-header{padding-top:78px}.site-header>.navbar{height:78px}.navbar-brand img{width:220px}}
-.eyebrow{font-size:11px;font-weight:700}
-.hero-copy h1,.listen-section h2,.models-section h2,.services-section h2,.why-section h2,.clinic-section h2,.locations-section h2,.conversion-inner h2,.section-dark-purple h2,.final-cta h2,.google-reviews-header h2{font-weight:700;letter-spacing:-.025em}
-.hearing-body h3,.service-card h3,.partner-card h3{letter-spacing:-.015em}
-.btn,.nav-cta,.hero-secondary,.whatsapp-link,.service-card a,.location-tag,.map-placeholder span,.hearing-image span,.hearing-body small{font-weight:700;letter-spacing:.005em}
-.brand-lockup strong{letter-spacing:-.025em}
