@@ -268,6 +268,8 @@ h1,h2,h3,h4,.navbar-brand,.image-prompt strong,.testimonial-highlight blockquote
 .brand-lockup strong{letter-spacing:-.025em}
 .nav-cta{background:var(--purple);border-color:var(--purple);color:#fff!important;box-shadow:0 8px 24px rgba(132,72,223,.2)}
 .nav-cta:hover,.nav-cta:focus{background:var(--violet);border-color:var(--violet);box-shadow:0 12px 30px rgba(132,72,223,.28);color:#fff!important;transform:translateY(-2px)}
-.partner-card{bottom:auto;height:auto;padding:34px 20px;top:50%;transform:translateY(-50%)}
+.partner-visual{height:auto;padding:30px}
+.partner-visual>img{border-radius:0;height:100%;inset:0;object-position:center 25%;position:absolute;width:100%;z-index:0}
+.partner-card{align-self:auto;bottom:auto;height:auto;margin-left:auto;padding:34px 20px 30px;position:relative;right:auto;top:auto;transform:none;width:42%}
 .partner-card li:last-child{margin-bottom:0}
-@media (max-width:575.98px){.partner-card{bottom:auto;padding:29px 13px;top:50%;transform:translateY(-50%)}}
+@media (max-width:575.98px){.partner-visual{padding:20px}.partner-visual>img{object-position:center 25%}.partner-card{bottom:auto;padding:29px 13px 25px;right:auto;top:auto;width:48%}}
